@@ -47,7 +47,7 @@ A local RAG (Retrieval-Augmented Generation) system for PDF documents. Ask quest
 2. Create and activate a virtual environment:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate  # On Windows: venv\Scriptsctivate
    ```
 
 3. Install dependencies:
@@ -77,7 +77,13 @@ python ingest.py /path/to/your/pdfs
 
 ### 2. Run the Web UI
 
-Launch the Streamlit interface to upload files and ask questions:
+Launch the Streamlit interface to upload files and ask questions using the helper script:
+
+```bash
+./run.sh
+```
+
+Or run it directly:
 
 ```bash
 streamlit run ui/streamlit_app.py
