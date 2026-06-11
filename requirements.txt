@@ -1,0 +1,16 @@
+# Core
+pymupdf
+sentence-transformers
+transformers
+torch
+numpy
+
+# Text splitting
+langchain-text-splitters
+
+# UI
+streamlit
+
+# Utilities
+python-dotenv
+tqdm
